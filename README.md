@@ -28,7 +28,7 @@ Figure 1 Sample of Cleaned Data
 ---
 
 ## Phase 3: Metric Extraction & Logic Building (SQL)
-With the data structured and loaded from `Cleaned_DataCo_SupplyChain.csv`, SQL was used to extract the specific KPIs that Solventum cares about.
+With the data structured and loaded from `Cleaned_DataCo_SupplyChain.csv`, SQL was used to extract the specific KPIs that companies might cares about.
 
 * **Procurement Trigger:** Wrote queries evaluating the newly created Shipping Lead Time Variance feature to identify exactly when and where materials will be late.
 * **Service Levels & Financial Impact:** Wrote queries calculating the percentage of "Shipping on time" statuses and tying Benefit per order to late deliveries to find capital tied up in slow-moving inventory.
